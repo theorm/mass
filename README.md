@@ -13,4 +13,7 @@ Speeding up spinning new projects with Angular, Gulp, Less and a modular design.
     template2.html
  ```
 
-In a modular application this will ensure that template names do not clash in the cache.
+ In a modular application this will ensure that template names do not clash in the cache.
+
+
+ Application stylesheet entry point is `app.less`. It is configured in `gulpfile.config.js`.

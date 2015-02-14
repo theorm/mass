@@ -7,7 +7,7 @@ angular.module('mass', ['ngResource', 'ui.router', 'ngMaterial'])
       .state('mass', {
         abstract: true,
         url: '/mass',
-        template: '<ui-view/>'
+        template: '<ui-view></ui-view>'
       })
       .state('mass.hello', {
         url: '/:name',
